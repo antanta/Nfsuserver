@@ -33,7 +33,9 @@ public class Worker : BackgroundService
         {
             Process pr = new Process();
             ProcessStartInfo prs = new ProcessStartInfo();
-            prs.FileName = "nfsuserver.1.0.1.linux.static";
+            //prs.FileName = "nfsuserver.1.0.1.linux.static";
+            prs.FileName = "/home/site/nfsuserver.1.0.1.linux.static";
+            prs.WorkingDirectory = "/home/site";
             prs.RedirectStandardOutput = true;
             prs.RedirectStandardError = true;
 
