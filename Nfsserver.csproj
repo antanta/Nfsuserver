@@ -15,6 +15,9 @@
     <None Update="nnfsuserver.1.0.1.linux.static">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="wwwroot\nfsuserver.1.0.1.linux.static">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   
 </Project>
